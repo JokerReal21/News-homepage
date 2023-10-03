@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;900&display=swap');
+
+* {
+    font-size: 62.5%;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img-logo{
+    vertical-align: middle;
+    /*     width: 100%;
+    height: 100%; */
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 2.0rem;
+}
+nav{
+    word-spacing: 3rem;
+}
+nav:hover{
+    color: orangered;
+}
+body{
+    margin: auto;
+    width: 1440px;
+    font-family: 'Noto Sans JP', sans-serif;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: grid;
+    gap: 1rem;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   /*  grid-template-columns: auto auto auto; */
+    gap: 3rem;
+}
+.main-img {
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+}
+.g1{
+    grid-column:span 2;  
+}
+.g2 {
+    grid-row: span 2;
+    background-color: black;
+    color: white;
+    text-align:justify;
+    padding: 3rem;
+    padding-top: 0;
+    height: 600px;
+}
+.chg-color{
+    color: hsl(35, 77%, 62%);
+}
+.chg-size{
+    font-size: 4.5rem;
+}
+.g3 {
+    text-align: left;
+    padding-right: 150px;
+    margin: 0px;
+}
+.g4 {
+    text-align: justify; 
+/*     justify-content:center; */
+
+ /*    padding: 10%; */
+    padding-right: 10%;
+    padding-left: 0;
+    padding-top: 0;
+}
+.btn{
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 3.0rem;
+    padding: 3%;
+}
+.btn:hover{
+    background-color: hsl(5, 85%, 63%);
+}
+.container {
+    display: flex;
+    place-items: center;
+    padding-top: 0;
+    gap: 1rem; 
+}
+.topicimgs{
+    height: 200px;
+    width: 150px;
+    object-fit: cover;
+}
+/* main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr 0.4fr 0.4fr;
+    grid-template-areas: 
+    "n1 n1 n2"
+    "n3 n4 n2"
+    "n5 n5 n5";
+    gap: 2rem;
+} */
+h1{
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h2:hover {
+    color: hsl(5, 85%, 63%);
+}
+p{
+    font-size: 1.5rem;
+}
+.numbers{
+    font-size: 3.5rem;
+    color: rgb(137, 137, 137);
+    margin:0;
+    padding-top: 0;
+}
+article {
+    border: 2px solid rgb(255, 255, 255);
+}
+.attribution{
+    font-size: 1.5rem;
+}
+.footer{
+    font-size: 1.5rem;
+}
+/* .g1 {
+    grid-area: n1;
+} */
+/* .g2 {
+    grid-area: n2;
+    background-color: black;
+    color: white;
+    text-align:justify;
+    padding: 0.5rem;
+    font-size: 1.8rem;
+}
+.g3 {
+    grid-area: n3;
+    font-size: 2.5rem;
+    text-align: left;
+    padding-top: 0;
+}
+.g4 {
+    grid-area: n4;
+    text-align: justify; 
+    justify-content:center;
+    font-size: 1.8rem;
+}
+.container{
+    font-size: 1.4rem;
+    padding-top: 0;
+    display: flex;
+    gap: 1rem;
+} */
